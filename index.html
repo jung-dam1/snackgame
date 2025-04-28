@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>간식 챌린지</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      background-color: #000; /* 여백 배경은 검정 */
+    }
+    h1 {
+      margin-top: 20px;
+      color: #fff;
+    }
+    #gameCanvas {
+      background-image: url('배경화면.png'); /* 여기 수정! */
+      background-size: cover;
+      background-position: center;
+      display: block;
+      margin: 20px auto;
+      border: 3px solid #ffffff; /* 하얀 테두리 */
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🍰 간식 챌린지 🍰</h1>
+
+  <canvas id="gameCanvas" width="800" height="600"></canvas>
+
+  <script src="game.js"></script>
+</body>
+</html>
